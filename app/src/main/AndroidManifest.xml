@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techsoldev.tictactoegame">
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tictactoe">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".AiGameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AiChooseSymbolActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AIGetPlayerNameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfflineGameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseSymbolActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfflineGetPlayersNamesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfflineGameMenuActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
