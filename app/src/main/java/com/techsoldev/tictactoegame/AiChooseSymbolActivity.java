@@ -21,7 +21,6 @@ public class AiChooseSymbolActivity extends AppCompatActivity implements View.On
     int PICK_SIDE ;
     private String playerName;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
