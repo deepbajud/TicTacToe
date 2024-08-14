@@ -33,7 +33,6 @@ public class AiChooseSymbolActivity extends AppCompatActivity implements View.On
 
         playerName = getIntent().getStringExtra("p1");
 
-
         BackBtn= (ImageView) findViewById(R.id.ai_pick_side_back_btn);
         CrossImg= (ImageView) findViewById(R.id.ai_pick_side_cross_img);
         CircleImg= (ImageView) findViewById(R.id.ai_pick_side_circle_img);
