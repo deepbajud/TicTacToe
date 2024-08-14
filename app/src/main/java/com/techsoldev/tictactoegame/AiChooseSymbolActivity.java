@@ -61,7 +61,6 @@ public class AiChooseSymbolActivity extends AppCompatActivity implements View.On
             @Override
             public void onClick(View v) {
 
-
                 PICK_SIDE= 1;
                 CircleRadioImg.setImageResource(R.drawable.radio_button_checked);
                 CrossRadioImg.setImageResource(R.drawable.radio_button_unchecked);
