@@ -15,7 +15,6 @@ import android.widget.RadioButton;
 
 public class AiChooseSymbolActivity extends AppCompatActivity implements View.OnTouchListener {
 
-
     private ImageView BackBtn , CrossImg , CrossRadioImg , CircleImg , CircleRadioImg;
     private Button ContinueBtn;
 
