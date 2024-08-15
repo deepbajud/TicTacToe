@@ -34,7 +34,6 @@ public class SettingsActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_settings);
 
-
          vibrationSwitch = (Switch)  findViewById(R.id.vibration_switch);
          soundSwitch = (Switch)  findViewById(R.id.sound_switch);
 
