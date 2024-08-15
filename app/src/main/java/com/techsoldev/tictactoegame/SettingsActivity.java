@@ -69,7 +69,6 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
 
-
         if(MyServices.SOUND_CHECK)
         {
             soundSwitch.setChecked(true);
