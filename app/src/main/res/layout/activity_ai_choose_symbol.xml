@@ -109,7 +109,8 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.25"></View>
+            android:layout_weight="1.25"
+            tools:ignore="NestedWeights" />
 
         <ImageView
             android:id="@+id/ai_pick_side_cross_radio"
@@ -117,12 +118,13 @@
             android:padding="15dp"
             android:layout_height="match_parent"
             android:layout_weight="3.5"
-            android:src="@drawable/radio_button_checked"></ImageView>
+            android:src="@drawable/radio_button_checked"
+            tools:ignore="ContentDescription" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.5"></View>
+            android:layout_weight="1.5" />
 
         <ImageView
             android:id="@+id/ai_pick_side_circle_radio"
@@ -130,17 +132,19 @@
             android:padding="15dp"
             android:layout_height="match_parent"
             android:layout_weight="3.5"
-            android:src="@drawable/radio_button_unchecked" />
+            android:src="@drawable/radio_button_unchecked"
+            tools:ignore="ContentDescription" />
+
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.25"></View>
+            android:layout_weight="1.25" />
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.75"></View>
+        android:layout_weight="0.75" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -153,16 +157,17 @@
         android:gravity="center"
         android:text="Continue"
         android:textAllCaps="false"
-        android:textSize="21dp"
+        android:textSize="21sp"
         android:fontFamily="@font/poppins_medium"
         android:textColor="#454545"
         android:layout_marginLeft="110dp"
         android:background="@drawable/button_2"
-        android:layout_marginRight="110dp" />
+        android:layout_marginRight="110dp"
+        tools:ignore="HardcodedText" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.65"></View>
+        android:layout_weight="1.65" />
 
 </LinearLayout>
