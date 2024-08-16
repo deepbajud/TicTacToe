@@ -78,7 +78,7 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.5"></View>
+            android:layout_weight="1.5" />
 
         <ImageView
             android:id="@+id/ai_pick_side_circle_img"
