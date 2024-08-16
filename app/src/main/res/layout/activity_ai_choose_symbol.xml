@@ -19,7 +19,8 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.5"></View>
+            android:layout_weight="0.5"
+            tools:ignore="NestedWeights" />
 
         <ImageView
             android:id="@+id/ai_pick_side_back_btn"
@@ -27,18 +28,18 @@
             android:padding="2dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/back_icon"></ImageView>
+            android:src="@drawable/back_icon" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="8.5"></View>
+            android:layout_weight="8.5" />
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"></View>
+        android:layout_weight="0.5" />
 
     <TextView
         android:layout_width="match_parent"
@@ -50,7 +51,7 @@
         android:textStyle="bold"
         android:textColor="#454545"
         android:textSize="20dp"
-        android:gravity="center"></TextView>
+        android:gravity="center" />
 
     <View
         android:layout_width="match_parent"
