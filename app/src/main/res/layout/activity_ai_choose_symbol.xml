@@ -86,12 +86,12 @@
             android:layout_height="match_parent"
             android:layout_weight="3.5"
             android:alpha=".4"
-            android:src="@drawable/circle"></ImageView>
+            android:src="@drawable/circle" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.25"></View>
+            android:layout_weight="1.25" />
     </LinearLayout>
 
     <View
