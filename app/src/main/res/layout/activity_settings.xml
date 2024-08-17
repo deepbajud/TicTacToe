@@ -52,7 +52,6 @@
         android:src="@drawable/splash_src" />
 
 
-
     <TextView
         android:layout_width="wrap_content"
         android:autoSizeMinTextSize="22dp"
@@ -64,7 +63,7 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:fontFamily="@font/poppins_medium"
-        android:textColor="#505050"></TextView>
+        android:textColor="#505050" />
 
     <View
         android:layout_width="match_parent"
