@@ -47,7 +47,7 @@
                     android:fontFamily="@font/poppins_medium"
                     android:textColor="#2C2C2C"
                     android:textStyle="bold"
-                    android:textAllCaps="false"></TextView>
+                    android:textAllCaps="false" />
 
 
                 <LinearLayout
