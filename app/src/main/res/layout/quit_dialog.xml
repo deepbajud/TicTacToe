@@ -40,7 +40,7 @@
                     android:textColor="#2C2C2C"
                     android:textStyle="bold"
                     android:textAllCaps="false"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText,SpUsage" />
 
 
                 <LinearLayout
