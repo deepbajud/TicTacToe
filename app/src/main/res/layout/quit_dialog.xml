@@ -74,8 +74,7 @@
                     <View
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        ></View>
+                        android:layout_weight="1" />
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/continue_btn"
@@ -90,13 +89,12 @@
                         android:textAllCaps="false"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/purple_btn"></androidx.appcompat.widget.AppCompatButton>
+                        android:background="@drawable/purple_btn" />
 
                     <View
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.5"
-                        ></View>
+                        android:layout_weight="1.5" />
                 </LinearLayout>
 
             </LinearLayout>
