@@ -47,7 +47,7 @@
                     android:textColor="#2C2C2C"
                     android:textStyle="bold"
                     android:textAllCaps="false"
-                    tools:ignore="HardcodedText"></TextView>
+                    tools:ignore="HardcodedText" />
 
 
                 <LinearLayout
