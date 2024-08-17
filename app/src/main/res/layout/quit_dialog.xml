@@ -85,14 +85,15 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
                         android:text="Cancel"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:fontFamily="@font/poppins_regular"
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textAllCaps="false"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/purple_btn" />
+                        android:background="@drawable/purple_btn"
+                        tools:ignore="HardcodedText" />
 
                     <View
                         android:layout_width="0dp"
