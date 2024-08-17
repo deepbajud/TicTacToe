@@ -97,7 +97,8 @@
                         android:textAllCaps="false"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:background="@drawable/button_1"></androidx.appcompat.widget.AppCompatButton>
+                        android:background="@drawable/button_1"
+                        tools:ignore="HardcodedText"></androidx.appcompat.widget.AppCompatButton>
 
                     <View
                         android:layout_width="0dp"
