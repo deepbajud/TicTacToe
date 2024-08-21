@@ -29,12 +29,12 @@
 
                     android:id="@+id/draw_animationView"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
                     android:layout_height="175dp"
-                    app:lottie_rawRes="@raw/robot_animi"
-                    app:lottie_autoPlay="true"
+                    android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    app:lottie_loop="true"/>
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/robot_animi" />
 
                 <TextView
                     android:layout_width="match_parent"

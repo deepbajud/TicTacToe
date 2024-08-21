@@ -68,7 +68,6 @@
                         android:textColor="@color/white"
                         android:textAllCaps="false"
                         android:layout_gravity="center"
-
                         android:background="@drawable/red_button"
                         tools:ignore="HardcodedText">
 
